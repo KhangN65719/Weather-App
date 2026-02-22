@@ -13,7 +13,7 @@ btn.addEventListener('click', async () => {
 
 async function getCity(text){
     try{
-        const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${text}&appid=${API}`)
+        const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${text}&appid=${API}`)
         const data = await response.json()
         const lat = data[0].lat 
         const lon = data[0].lon  
