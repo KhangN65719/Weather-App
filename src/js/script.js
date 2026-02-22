@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_KEY  
+const API = "6cdacee3d0a45ea89150b4300e6d5f4d"
 const btn = document.querySelector(".btn")
 const input = document.querySelector(".search-box")
 const div = document.createElement('div')
