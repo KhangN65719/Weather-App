@@ -30,10 +30,10 @@ async function getData(coord){
         const data = await response.json()
         console.log(data)
         if(data.weather[0].description == "clear sky"){
-            img = "./assets/sunny.png"
+            img = "./src/assets/sunny.png"
         }
         else if(data.weather[0].description == "overcast clouds"){
-            img = "./assets/cloudy.png"
+            img = "./src/assets/cloudy.png"
         }
         else{
             img = ""
